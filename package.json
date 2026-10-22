@@ -1,0 +1,13 @@
+{
+  "name": "ev-pickup-anatomy-jig",
+  "private": true,
+  "type": "module",
+  "description": "Frame-locked 34-second WebGL anatomy jig of an original electric pickup chassis: stainless exoskeleton, steer-by-wire, and 48V zonal ethernet.",
+  "scripts": {
+    "start": "node serve-Cursor.mjs",
+    "test": "node --test test/timeline.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  }
+}
